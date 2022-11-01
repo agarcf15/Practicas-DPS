@@ -24,7 +24,7 @@ char *funcion1(void){
     return temp;
 
 }
-void funcion2(void){ //DCL30-C. Puede generar que no se borre c_str
+void funcion2(void){ //DCL30-C. Puede generar que c_str se sobreescriba yo se pierda cuando termine funcion2
     const char c_str[] = "Todo va bien";
     p = c_str;
 }
