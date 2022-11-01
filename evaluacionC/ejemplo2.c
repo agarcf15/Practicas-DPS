@@ -39,3 +39,7 @@ void func(size_t array_size){
     structP->data[i] = 1; //DCL38
    }
 }
+int main(void){
+    func(5);
+    return 0;
+}
